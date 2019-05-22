@@ -103,7 +103,7 @@ int* printSnakeChunk(){
 }
 
 int controls(){
-    if(kbhit){
+    if(kbhit()){
         char c = getch();
         int flag;
 
